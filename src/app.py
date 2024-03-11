@@ -8,7 +8,7 @@ import dash_cytoscape as cyto
 colors = px.colors.qualitative.Plotly
 
 app=Dash(external_stylesheets=['https://codepen.io/chriddyp/pen/bWLwgP.css'])
-
+server = app.server
 df = pd.read_csv('word_embeddings_2d.csv')
 
 
